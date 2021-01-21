@@ -1,0 +1,13 @@
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\bin\Debug\netcoreapp3.1\TakingInitials.exe
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\bin\Debug\netcoreapp3.1\TakingInitials.deps.json
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\bin\Debug\netcoreapp3.1\TakingInitials.runtimeconfig.json
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\bin\Debug\netcoreapp3.1\TakingInitials.runtimeconfig.dev.json
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\bin\Debug\netcoreapp3.1\TakingInitials.dll
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\bin\Debug\netcoreapp3.1\TakingInitials.pdb
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.csprojAssemblyReference.cache
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.AssemblyInfoInputs.cache
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.AssemblyInfo.cs
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.csproj.CoreCompileInputs.cache
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.dll
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.pdb
+C:\Users\DharanaR\source\repos\TakingInitials\TakingInitials\obj\Debug\netcoreapp3.1\TakingInitials.genruntimeconfig.cache
