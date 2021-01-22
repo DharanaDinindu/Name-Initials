@@ -6,27 +6,20 @@ namespace TakingInitials
     {
         static void Main(string[] args)
         {
-            string fullName = "";
-            convertName(fullName);
+            string fullName = GetFullNameFromConsole();
+            string nameWithInitials = GetNameWithInitials(fullName);
+            DisplayAnswer(nameWithInitials);
         }
 
-        public static void convertName(string fullName) 
+        public static string GetFullNameFromConsole() 
         {
-            //readimg user input
+            //reading user input
             Console.Write("Enter full name with spaces: ");
-            fullName = Console.ReadLine();
-
-            if (fullName != null && fullName != "")
-            {
-                seperateInitials(fullName);
-            }
-            else
-            {
-                Console.WriteLine("Name cannot be empty!!!");
-            }
+            string fullName = Console.ReadLine();
+            return fullName;
         }
 
-        public static void seperateInitials(string fullName)
+        public static string GetNameWithInitials(string fullName)
         {
             string name;
             char initial;
@@ -55,10 +48,10 @@ namespace TakingInitials
 
             nameWithInt = initials + lastName;
 
-            printNameWithInitials(nameWithInt);
+            return nameWithInt;
         }
 
-        public static void printNameWithInitials(string nameWithInt)
+        public static void DisplayAnswer(string nameWithInt)
         {
             Console.WriteLine(nameWithInt);
         }
