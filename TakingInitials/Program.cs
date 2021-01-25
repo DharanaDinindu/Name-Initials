@@ -2,7 +2,7 @@
 
 namespace TakingInitials
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -31,22 +31,29 @@ namespace TakingInitials
 
             Console.Write("Name with initials: ");
 
-            string initials = "";
-
-            //taking the initials seperately
-            for (int i = 0; i < nameByWords.Length - 1; i++)
+            if(nameByWords.Length > 1)
             {
-                name = nameByWords[i];
+                string initials = "";
 
-                initial = name[0];
-                initial = Char.ToUpper(initial);
+                //taking the initials seperately
+                for (int i = 0; i < nameByWords.Length - 1; i++)
+                {
+                    name = nameByWords[i];
 
-                initials += initial.ToString() + ". ";
+                    initial = name[0];
+                    initial = Char.ToUpper(initial);
+
+                    initials += initial.ToString() + ". ";
+                }
+
+                lastName = nameByWords[nameByWords.Length - 1];
+
+                nameWithInt = initials + lastName;
             }
-
-            lastName = nameByWords[nameByWords.Length - 1];
-
-            nameWithInt = initials + lastName;
+             else
+            {
+                nameWithInt = nameByWords[0];
+            }
 
             return nameWithInt;
         }
